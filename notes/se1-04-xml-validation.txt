@@ -1,0 +1,25 @@
+Do not send response to this text before you read the entire text carefully.
+
+Instructions:
+
+1. You have to send a single file with extension "txt" as attachment. No other extension will be processed further. Name of the attached file should be your roll number. Your roll number is a five digit string. If you do NOT name the file as per this rule, your assignment might be rejected.
+
+2. You have to send an email to "assignments<DOT>pucsd<AT>gmail<DOT>com" with the subject: SE1_16_XML_VAL_RULES
+
+Note that I am going to filter messages on the basis of the subject text ONLY. So, you should send the email with the exact subject text given above. Even slight change might result in rejection.
+3. Deadline: 31/01/2016, 10pm
+
+If you miss the deadline your assignment will be rejected. If you don't know the current time you may use this link [IST] to find the current time.
+
+[IST] http://wwp.greenwichmeantime.com/time-zone/asia/india/time/
+
+The assignment problem text starts here.
+
+Write as many validation rules for the wall, door and box (container) template data as you can and classify them in the groups (e.g. tag errors, tag value errors etc) as discussed in the class. 
+
+You should submit a single text file as an attachment. Every group should submit only one mail from any group member's email.
+
+The assignment problem text ends here.
+
+Do not send your assignment by replying to this mail without setting the subject text properly. The subject text to be used for this assignment is: SE1_16_XML_VAL_RULES
+ 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+   <!--
+      -->
+   <!--
+   the following 4 tags
+        <objectID> unique object id </objectID>
+        <objectType> type id </objectType>
+        <userDefinedObjectID> string </userDefinedObjectID>
+        <userComment> string </userComment>
+        <userLabel> string </userLabel>
+   will be filled with dummys ONLY
+   At the time of object instance creation, you should fill in these fields with
+   actuals.
+   Of course, the other object properties, will be entered at the time of object instance 
+   creation and at the time of instance modification.
+
+      -->
+
+<doorTemplate>
+  <objectID> unique object id </objectID>
+  <objectType> type id </objectType>
+  <userDefinedObjectID> string </userDefinedObjectID>
+  <userLabel> string </userLabel>
+  <userComment> string </userComment>
+
+  <doorTemplateID> string </doorTemplateID>
+  <rectDims>
+    <height>  int  </height>
+    <width>  int  </width>
+  </rectDims>
+  <color>
+    (int, int, int)
+  </color>
+</doorTemplate>
+
+

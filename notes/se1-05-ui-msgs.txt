@@ -1,0 +1,26 @@
+Do not send response to this text before you read the entire text carefully.
+
+Instructions:
+
+1. You have to send a single file with extension "txt" as attachment. No other extension will be processed further. Name of the attached file should be your roll number. Your roll number is a five digit string. If you do NOT name the file as per this rule, your assignment might be rejected.
+
+2. You have to send an email to "assignments<DOT>pucsd<AT>gmail<DOT>com" with the subject: SE1_02_UI_MSGS
+
+Note that I am going to filter messages on the basis of the subject text ONLY. So, you should send the email with the exact subject text given above. Even slight change might result in rejection.
+3. Deadline: 01/02/2016 10PM
+
+If you miss the deadline your assignment will be rejected. If you don't know the current time you may use this link [IST] to find the current time.
+
+[IST] http://wwp.greenwichmeantime.com/time-zone/asia/india/time/
+
+The assignment problem text starts here.
+
+Read the "note-about-credit.txt" carefully.
+    http://tinyurl.com/note-about-credit
+
+
+This is group assignment. You should submit a single entry per project group. Any group member should submit a text file with name <rollno.txt> containing the text as told in the lecture.
+
+The assignment problem text ends here.
+
+Do not send your assignment by replying to this mail without setting the subject text properly. The subject text to be used for this assignment is: SE1_02_UI_MSGS

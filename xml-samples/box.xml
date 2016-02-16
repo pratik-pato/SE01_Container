@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<boxTemplate>
+  <objectID> unique object id </objectID>
+  <objectType> type id </objectType>
+  <userDefinedObjectID> string </userDefinedObjectID>
+  <userLabel> string </userLabel>
+  <userComment> string </userComment>
+
+  <boxTemplateID> string </boxTemplateID>
+  <boxDimsOuter> (int, int, int)  </boxDimsOuter>
+  <boxDimsInner> (int, int, int)  </boxDimsInner>
+  <isContainerFlag> bool </isContainerFlag>
+
+  <faceWalls>
+    <frontFace>
+      <wallTemplateID> string </wallTemplateID>
+      <wallOrientation> (char,char,char,char) <wallOrientation>
+    </frontFace>
+
+    <backFace>
+      <wallTemplateID> string </wallTemplateID>
+      <wallOrientation> (char,char,char,char) <wallOrientation>
+    </backFace>
+
+    <leftFace>
+      <wallTemplateID> string </wallTemplateID>
+      <wallOrientation> (char,char,char,char) <wallOrientation>
+    </leftFace>
+
+    <rightFace>
+      <wallTemplateID> string </wallTemplateID>
+      <wallOrientation> (char,char,char,char) <wallOrientation>
+    </rightFace>
+
+    <roofFace>
+      <wallTemplateID> string </wallTemplateID>
+      <wallOrientation> (char,char,char,char) <wallOrientation>
+    </roofFace>
+
+    <floorFace>
+      <wallTemplateID> string </wallTemplateID>
+      <wallOrientation> (char,char,char,char) <wallOrientation>
+    </floorFace>
+  </faceWalls>
+
+  <numberOfDirectChildBoxes> int </numberOfDirectChildBoxes>
+  <childBoxList>
+    <childBox>
+      <boxTemplateID> string </boxTemplateID>
+      <childBoxPlacement>
+        <faceAlignment>
+          (child-roof, parent-face)
+          (child-front, parent-face)
+        </faceAlignment>
+        <childOriginDisplacement> (int, int, int) </childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+  </childBoxList>
+</boxTemplate>
+

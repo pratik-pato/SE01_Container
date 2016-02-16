@@ -1,0 +1,76 @@
+Do not send response to this text before you read the entire text carefully.
+
+Instructions:
+
+1. You have to send a single file with extension "tar.gz" as attachment. No other extension will be processed further. Name of the attached file should be your roll number. Your roll number is a five digit string. If you do NOT name the file as per this rule, your assignment might be rejected.
+
+2. You have to send an email to "assignments<DOT>pucsd<AT>gmail<DOT>com" with the subject: SE1_02_HTMLJS_UI
+
+Note that I am going to filter messages on the basis of the subject text ONLY. So, you should send the email with the exact subject text given above. Even slight change might result in rejection.
+3. Deadline: 28/01/2016 6PM
+
+If you miss the deadline your assignment will be rejected. If you don't know the current time you may use this link [IST] to find the current time.
+
+[IST] http://wwp.greenwichmeantime.com/time-zone/asia/india/time/
+
+The assignment problem text starts here.
+
+Read the "note-about-credit.txt" carefully.
+    http://tinyurl.com/note-about-credit
+
+You may fetch a very large negative credit (including potential disqualification from the entire course also) if you submit an assignment without checking it yourself that it works as expected for the conditions given in the assignment text. Read the assignment text very carefully before you submit the assignment solution. Submitting junk code that obviously doesn't work as expected in the name of assignment work will be dealt with in a very strict manner. Do not submit the program, if it does NOT conform the given specifications.
+
+As discussed in the class, you have to implement a HTML and JS based program that allows the users to load, edit, create a DAG representing type hierarchy.
+
+User should be able
+ - to construct/add new types by entering text in the textbox labeled `add/edit type` 
+   and by pressing the [Enter] key; [after the [Enter] key is pressed, the most recently
+   entered type in the list should be selected automatically for further processing]
+
+ - to select a type just by pressing up/down/home/end keys; up/down keys should move 
+   selection by 1 entry at a time while home/end keys should move selection to start/end
+   respectively
+
+ - to add/remove all types to/from selection by pressing [Enter]
+       Note that the [Enter] key event should be handled separately depending 
+       upon whether it happened while editing the type name or while selecting types.
+
+ - to delete selected type(s) by pressing [Delete] key - all the selected types 
+   should be deleted
+
+ - to edit a selected type by pressing [Insert] key - the top-most selected type should 
+   be brought in the editable textbox labeled `add/edit type` and further keystrokes
+   (especially the arrow, delete, spacebar keys) should be processed accordingly;
+      the [Enter] key press should terminate the editing by adding/saving the entry 
+      to the list while the [Esc] key press should terminate the editing by discarding 
+      the changes and in case of discard the focus/cursor should remain in the textbox only
+ 
+ - to select a type for subtype creation by pressing [Right] arrow key
+ 
+ - to add/remove a type to/from the already selected list of super-types by pressing the
+   [Spacebar] key
+
+ - to finish creation of sub type edit by pressing [Left] arrow key or by pressing the
+   [Enter] key; to abort creation/editing of sub type by pressing [Esc] key
+ 
+ - to create DAG by pressing [F2] key while not editing type name
+ 
+ - to load DAG by pressing [F3] key while not editing type name
+
+You may wish to refer [jqdoc] to see how to handle keyboard events.
+
+Your program should prevent the user from
+ - creating wrong/invalid type hierarchy
+ - entering invalid type names [type names should start with alphabet, and 
+   can contain only alphabets, numerals and the dash character, type name 
+   length should not exceed 20 characters]
+
+[jqdoc] 
+    https://api.jquery.com/event.which/
+    https://api.jquery.com/category/events/
+
+The assignment problem text ends here.
+
+If you have any doubts, you may meet me.
+
+Do not send your assignment by replying to this mail without setting the subject text properly. The subject text to be used for this assignment is: SE1_02_HTMLJS_UI
