@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="ISO-8859-15"?>
 <wallTemplate>
-  <objectID> w24 </objectID>
+  <objectID> w23 </objectID>
   <objectType> 1 </objectType>
-  <userDefinedObjectID> wall24 </userDefinedObjectID>
+  <userDefinedObjectID> wall23 </userDefinedObjectID>
   <userLabel> wall_10x10 </userLabel>
   <userComment> chalkBox_paper </userComment>
-  <wallTemplateID> w_24 </wallTemplateID>
+  <wallTemplateID> w_23 </wallTemplateID>
   <rectDims>
     <AD>  100  </AD>
     <AB>  100  </AB>

@@ -16,7 +16,7 @@
   <numberOfDoors> 1 </numberOfDoors>
   <doorlist>
     <doorPlacement>
-      <doorTemplateID> D01 </doorTemplateID>
+      <doorTemplateID> d_2 </doorTemplateID>
       <doorOrientation> (A,B,C,D) </doorOrientation>
       <doorDisplacement>
 	<AB>10</AB>

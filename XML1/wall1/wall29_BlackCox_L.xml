@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<wallTemplate>
+  <objectID> w30 </objectID>
+  <objectType> 1 </objectType>
+  <userDefinedObjectID> wall30 </userDefinedObjectID>
+  <userLabel> wall_60x54 </userLabel>
+  <userComment> BlackBox_wooden </userComment>
+  <wallTemplateID> w_30 </wallTemplateID>
+  <rectDims>
+    <AD>  600  </AD>
+    <AB>  540  </AB>
+  </rectDims>
+  <color>
+    (0, 0, 0)
+  </color>
+  <numberOfDoors> 2 </numberOfDoors>
+  <doorlist>
+    <doorPlacement>
+      <doorTemplateID> d_3 </doorTemplateID>
+      <doorOrientation> (A,B,C,D) </doorOrientation>
+      <doorDisplacement>
+	<AB>20</AB>
+	<AD>20</AD>
+      </doorDisplacement>
+    </doorPlacement>
+
+    <doorPlacement>
+      <doorTemplateID> d_3 </doorTemplateID>
+      <doorOrientation> (A,B,C,D) </doorOrientation>
+      <doorDisplacement>
+	<AB>20</AB>
+	<AD>340</AD>
+      </doorDisplacement>
+    </doorPlacement>
+  </doorlist>
+</wallTemplate>
