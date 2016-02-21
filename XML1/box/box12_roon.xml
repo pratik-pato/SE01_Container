@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<boxTemplate>
+  <objectID> w12 </objectID>
+  <objectType> 3 </objectType>
+  <userDefinedObjectID> box12 </userDefinedObjectID>
+  <userLabel> box_1416x666x374 </userLabel>
+  <userComment> room_1416x666x374 </userComment>
+  <boxTemplateID> b_12 </boxTemplateID>
+  <boxDimsOuter>
+    <AD>  14160  </AD>
+    <AB>  6660  </AB>
+  <AE> 3740 </AE></boxDimsOuter>
+  <boxDimsInner>
+    <AD>  13600  </AD>
+    <AB>  6100  </AB>
+  <AE> 3180 </AE></boxDimsInner>
+  <isContainerFlag> true </isContainerFlag>
+  <faceWalls>
+    <frontFace>
+      <wallTemplateID> w_3 </wallTemplateID>
+      <wallOrientation> (A,B,C,D) </wallOrientation>
+    </frontFace>
+    <backFace>
+      <wallTemplateID> w_3 </wallTemplateID>
+      <wallOrientation> (D,C,B,A) </wallOrientation>
+    </backFace>
+    <leftFace>
+      <wallTemplateID> w_2 </wallTemplateID>
+      <wallOrientation> (A,B,C,D) </wallOrientation>
+    </leftFace>
+    <rightFace>
+      <wallTemplateID> w_1 </wallTemplateID>
+      <wallOrientation> (A,B,C,D) </wallOrientation>
+    </rightFace>
+    <roofFace>
+      <wallTemplateID> w_4 </wallTemplateID>
+      <wallOrientation> (A,B,C,D) </wallOrientation>
+    </roofFace>
+    <floorFace>
+      <wallTemplateID> w_4 </wallTemplateID>
+      <wallOrientation> (B,A,D,C) </wallOrientation>
+    </floorFace>
+  </faceWalls>
+  <numberOfDirectChildBoxes> 68 </numberOfDirectChildBoxes>
+
+  <childBoxList>
+    <childBox>
+      <boxTemplateID> b_10 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace> (DABC,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,ADHE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>5450</AB>
+	  <AD>350</AD>
+	  <AE>2280</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID> b_9 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (DABC,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,ADHE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6100</AB>
+	  <AD>650</AD>
+	  <AE>1500</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID> b_11  </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDAB,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6080</AB>
+	  <AD>3050</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_2  </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (ABCD,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,DCGH) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>1</AB>
+	  <AD>2420</AD>
+	  <AE>1</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_2  </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (ABCD,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,DCGH) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>1</AB>
+	  <AD>5240</AD>
+	  <AE>1</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_2  </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (ABCD,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,DCGH) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>1</AB>
+	  <AD>8020</AD>
+	  <AE>1</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_2  </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (ABCD,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,DCGH) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>1</AB>
+	  <AD>1080</AD>
+	  <AE>1</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_4  </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (ABCD,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,DCGH) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>1</AB>
+	  <AD>1</AD>
+	  <AE>2880</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_5   </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (ABCD,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,DCGH) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6090</AB>
+	  <AD>3040</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+
+      <boxTemplateID>  b_3   </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (DABC,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,DAEH) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6099</AB>
+	  <AD>7820</AD>
+	  <AE>1900</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_3   </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (DABC,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,DAEH) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6099</AB>
+	  <AD>8570</AD>
+	  <AE>1900</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_3   </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (DABC,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,DAEH) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6090</AB>
+	  <AD>10120</AD>
+	  <AE>1900</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_3   </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (DABC,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,DAEH) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6099</AB>
+	  <AD>11020</AD>
+	  <AE>1900</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_3   </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (DABC,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,DAEH) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6099</AB>
+	  <AD>12320</AD>
+	  <AE>1900</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+
+      <boxTemplateID>  b_3   </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (BCDA,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,ADHE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>1</AB>
+	  <AD>7920</AD>
+	  <AE>1960</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_3   </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (BCDA,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,ADHE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>1</AB>
+	  <AD>8670</AD>
+	  <AE>1960</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_3   </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (BCDA,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,ADHE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>1</AB>
+	  <AD>10220</AD>
+	  <AE>1960</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_3   </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (BCDA,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,ADHE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>1</AB>
+	  <AD>11120</AD>
+	  <AE>1960</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_3   </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (BCDA,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,ADHE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>1</AB>
+	  <AD>12620</AD>
+	  <AE>1960</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+
+      <boxTemplateID>  b_3   </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDAB,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>1420</AB>
+	  <AD>13599</AD>
+	  <AE>1960</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_3   </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDAB,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>2840</AB>
+	  <AD>13599</AD>
+	  <AE>1960</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_3   </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDAB,ABCD) </childRoofFace>
+	  <childFrontFace> (DCGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>4260</AB>
+	  <AD>13599</AD>
+	  <AE>1960</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>900</AB>
+	  <AD>5560</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>900</AB>
+	  <AD>6310</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>900</AB>
+	  <AD>7060</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>900</AB>
+	  <AD>7810</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>900</AB>
+	  <AD>8560</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>900</AB>
+	  <AD>9310</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>900</AB>
+	  <AD>10060</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>900</AB>
+	  <AD>10810</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>900</AB>
+	  <AD>11560</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>900</AB>
+	  <AD>12310</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>2630</AB>
+	  <AD>4060</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>2630</AB>
+	  <AD>4810</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>2630</AB>
+	  <AD>5560</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>2630</AB>
+	  <AD>6310</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>2630</AB>
+	  <AD>7060</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>2630</AB>
+	  <AD>7810</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>2630</AB>
+	  <AD>8560</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>2630</AB>
+	  <AD>9310</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>2630</AB>
+	  <AD>10060</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>2630</AB>
+	  <AD>10810</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>2630</AB>
+	  <AD>11560</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>2630</AB>
+	  <AD>12310</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>4360</AB>
+	  <AD>4060</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>4360</AB>
+	  <AD>4810</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>4360</AB>
+	  <AD>5560</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>4360</AB>
+	  <AD>6310</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>4360</AB>
+	  <AD>7060</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>4360</AB>
+	  <AD>7810</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>4360</AB>
+	  <AD>8560</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>4360</AB>
+	  <AD>9310</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>4360</AB>
+	  <AD>10060</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>4360</AB>
+	  <AD>10810</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>4360</AB>
+	  <AD>11560</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>4360</AB>
+	  <AD>12310</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6090</AB>
+	  <AD>4060</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6090</AB>
+	  <AD>4810</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6090</AB>
+	  <AD>5560</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6090</AB>
+	  <AD>6310</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6090</AB>
+	  <AD>7060</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6090</AB>
+	  <AD>78</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6090</AB>
+	  <AD>8560</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6090</AB>
+	  <AD>9310</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6090</AB>
+	  <AD>10060</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6090</AB>
+	  <AD>10810</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6090</AB>
+	  <AD>11560</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID>  b_1 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace>  (CDBA,ABCD) </childRoofFace>
+	  <childFrontFace> (CDGH,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>6090</AB>
+	  <AD>12310</AD>
+	  <AE>2430</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+  </childBoxList>
+  
+</boxTemplate>

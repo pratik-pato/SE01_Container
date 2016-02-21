@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<boxTemplate>
+  <objectID> w1 </objectID>
+  <objectType> 3 </objectType>
+  <userDefinedObjectID> box1 </userDefinedObjectID>
+  <userLabel> box_7590x72 </userLabel>
+  <userComment> bench_75x90x72 </userComment>
+  <boxTemplateID> b_1 </boxTemplateID>
+  <boxDimsOuter>
+    <AD>  750  </AD>
+    <AB>  900  </AB>
+  <AE> 720 </AE></boxDimsOuter>
+  <boxDimsInner>
+    <AD>  0  </AD>
+    <AB>  0  </AB>
+  <AE> 0 </AE></boxDimsInner>
+  <isContainerFlag> false </isContainerFlag>
+  <faceWalls>
+    <frontFace>
+      <wallTemplateID> w_6 </wallTemplateID>
+      <wallOrientation> (A,B,C,D) </wallOrientation>
+    </frontFace>
+    <backFace>
+      <wallTemplateID> w_6 </wallTemplateID>
+      <wallOrientation> (B,A,D,C) </wallOrientation>
+    </backFace>
+    <leftFace>
+      <wallTemplateID> w_5 </wallTemplateID>
+      <wallOrientation> (A,B,C,D) </wallOrientation>
+    </leftFace>
+    <rightFace>
+      <wallTemplateID> w_5 </wallTemplateID>
+      <wallOrientation> (D,C,B,A) </wallOrientation>
+    </rightFace>
+    <roofFace>
+      <wallTemplateID> w_7 </wallTemplateID>
+      <wallOrientation> (A,B,C,D) </wallOrientation>
+    </roofFace>
+    <floorFace>
+      <wallTemplateID> w_7 </wallTemplateID>
+      <wallOrientation> (B,A,D,C) </wallOrientation>
+    </floorFace>
+  </faceWalls>
+  <numberOfDirectChildBoxes> 0 </numberOfDirectChildBoxes>
+</boxTemplate>
