@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<wallTemplate>
+  <objectID> w43 </objectID>
+  <objectType> 1 </objectType>
+  <userDefinedObjectID> wall43 </userDefinedObjectID>
+  <userLabel> wall_35x25 </userLabel>
+  <userComment> amp_wall </userComment>
+  <wallTemplateID> w_43 </wallTemplateID>
+  <rectDims>
+    <AD>  350  </AD>
+    <AB>  250  </AB>
+  </rectDims>
+  <color>
+    (255, 255, 0)
+  </color>
+  <numberOfDoors> 0 </numberOfDoors>
+</wallTemplate>
