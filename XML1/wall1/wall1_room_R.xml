@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<wallTemplate>
+  <objectID> w1 </objectID>
+  <objectType> 1 </objectType>
+  <userDefinedObjectID> wall1 </userDefinedObjectID>
+  <userLabel> wall_318x1360 </userLabel>
+  <userComment> concrete_wall_door </userComment>
+
+  <wallTemplateID> w_1 </wallTemplateID>
+  <rectDims>
+    <AD> 3180 </AD>
+    <AB> 13600 </AB>
+  </rectDims>
+  <color>
+    (20, 20, 100)
+  </color>
+  
+  <numberOfDoors> 3 </numberOfDoors>
+  <doorlist>
+    <doorPlacement>
+      <doorTemplateID> d_1 </doorTemplateID>
+      <doorOrientation> (A,B,C,D) </doorOrientation>
+      <doorDisplacement>
+          <AB>4100</AB>
+          <AD>1130</AD>
+      </doorDisplacement>
+    </doorPlacement>
+    
+    <doorPlacement>
+      <doorTemplateID> d_1 </doorTemplateID>
+      <doorOrientation> (A,B,C,D) </doorOrientation>
+      <doorDisplacement>
+          <AB>5650</AB>
+          <AD>1130</AD>
+      </doorDisplacement>
+    </doorPlacement>
+    
+    <doorPlacement>
+      <doorTemplateID> d_1</doorTemplateID>
+      <doorOrientation> (A,B,C,D) </doorOrientation>
+      <doorDisplacement>
+          <AB>12530</AB>
+          <AD>1130</AD>
+      </doorDisplacement>
+    </doorPlacement>
+  
+  </doorlist>
+</wallTemplate>
+
+

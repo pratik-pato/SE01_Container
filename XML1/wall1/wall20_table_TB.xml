@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<wallTemplate>
+  <objectID> w20 </objectID>
+  <objectType> 1 </objectType>
+  <userDefinedObjectID> wall20 </userDefinedObjectID>
+  <userLabel> wall_150x75 </userLabel>
+  <userComment> table_wooden </userComment>
+  <wallTemplateID> w_20 </wallTemplateID>
+  <rectDims>
+    <AD>  1500  </AD>
+    <AB>  750  </AB>
+  </rectDims>
+  <color>
+    (17, 210, 0)
+  </color>
+  <numberOfDoors> 0 </numberOfDoors>
+</wallTemplate>

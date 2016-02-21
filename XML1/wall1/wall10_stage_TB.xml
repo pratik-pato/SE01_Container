@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<wallTemplate>
+  <objectID> w10 </objectID>
+  <objectType> 1 </objectType>
+  <userDefinedObjectID> wall10 </userDefinedObjectID>
+  <userLabel> wall_609x200 </userLabel>
+  <userComment> stage_wooden </userComment>
+  <wallTemplateID> w_10 </wallTemplateID>
+  <rectDims>
+    <AD>  6090  </AD>
+    <AB>  2000  </AB>
+  </rectDims>
+  <color>
+    (28, 56, 56)
+  </color>
+  <numberOfDoors> 0 </numberOfDoors>
+</wallTemplate>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<wallTemplate>
+  <objectID> w6 </objectID>
+  <objectType> 1 </objectType>
+  <userDefinedObjectID> wall6 </userDefinedObjectID>
+  <userLabel> wall_72x90 </userLabel>
+  <userComment> bench_wooden </userComment>
+  <wallTemplateID> w_6 </wallTemplateID>
+  <rectDims>
+    <AD>  720  </AD>
+    <AB>  900  </AB>
+  </rectDims>
+  <color>
+    (54, 54, 0)
+  </color>
+  <numberOfDoors> 0 </numberOfDoors>
+</wallTemplate>
