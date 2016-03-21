@@ -1,0 +1,43 @@
+<html>
+  <head>
+
+    <script type="text/javascript">
+      window.onload = function() {
+      var TableArray = new Array();
+      TableArray[0] = "T1";
+      TableArray[1] = "T2";
+      TableArray[2] = "T3";
+      TableArray[3] = "T4";
+      
+      var tableList = document.getElementById("tableList");
+      for (i=0;i<TableArray.length;i++)
+		   {
+		   var Entry = document.createElement("option");
+		   Entry.text = TableArray[i];
+		   tableList.add(Entry ,null);
+		   }
+		   }
+
+		   function keyOnTableList(event) {
+		   var x = event.which || event.keyCode;
+		   if(x==13)
+		   {
+		   var val = document.getElementById("tableList").value;
+		   alert("The Unicode value is: " + x +"  and value is :" + val);
+		   
+		   }
+		   }
+		   </script>
+
+  </head>
+  <body>
+
+    <form>
+      <br>
+      Select Table From List :<br>
+      <select id="tableList" size=4 autofocus onkeypress="keyOnTableList(event)">
+      </select>
+    </form>
+
+  </body>
+  </html>
