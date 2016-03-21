@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<doorTemplate>
+  <objectID>d2</objectID>
+  <objectType> 2 </objectType>
+  <userDefinedObjectID> door_amp </userDefinedObjectID>
+  <userLabel> door_75x50 </userLabel>
+  <userComment>glass_door</userComment>
+
+  <doorTemplateID> d_2 </doorTemplateID>
+  <rectDims>
+    <AD>  750  </AD>
+    <AB>  500  </AB>
+  </rectDims>
+  <color>
+    (255,255,255)
+  </color>
+</doorTemplate>

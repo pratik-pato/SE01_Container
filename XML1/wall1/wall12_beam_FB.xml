@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<wallTemplate>
+  <objectID> w12 </objectID>
+  <objectType> 1 </objectType>
+  <userDefinedObjectID> wall12 </userDefinedObjectID>
+  <userLabel> wall_57x610 </userLabel>
+  <userComment> beam_concrete </userComment>
+  <wallTemplateID> w_12 </wallTemplateID>
+  <rectDims>
+    <AD>  570  </AD>
+    <AB>  6100  </AB>
+  </rectDims>
+  <color>
+    (255, 255, 255)
+  </color>
+  <numberOfDoors> 0 </numberOfDoors>
+</wallTemplate>

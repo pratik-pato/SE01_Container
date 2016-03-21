@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<boxTemplate>
+  <objectID> w11 </objectID>
+  <objectType> 3 </objectType>
+  <userDefinedObjectID> box11 </userDefinedObjectID>
+  <userLabel> box_75x150x75 </userLabel>
+  <userComment> table_75x150x75 </userComment>
+  <boxTemplateID> b_11 </boxTemplateID>
+  <boxDimsOuter>
+    <AD>  750  </AD>
+    <AB>  1500  </AB>
+  <AE> 750 </AE></boxDimsOuter>
+  <boxDimsInner>
+    <AD>  710  </AD>
+    <AB>  1460  </AB>
+  <AE> 710 </AE></boxDimsInner>
+  <isContainerFlag> true </isContainerFlag>
+  <faceWalls>
+    <frontFace>
+      <wallTemplateID> w_18 </wallTemplateID>
+      <wallOrientation> (A,B,C,D) </wallOrientation>
+    </frontFace>
+    <backFace>
+      <wallTemplateID> w_19 </wallTemplateID>
+      <wallOrientation> (A,B,C,D) </wallOrientation>
+    </backFace>
+    <leftFace>
+      <wallTemplateID> w_17 </wallTemplateID>
+      <wallOrientation> (A,B,C,D) </wallOrientation>
+    </leftFace>
+    <rightFace>
+      <wallTemplateID> w_17 </wallTemplateID>
+      <wallOrientation> (D,C,B,A) </wallOrientation>
+    </rightFace>
+    <roofFace>
+      <wallTemplateID> w_20 </wallTemplateID>
+      <wallOrientation> (A,B,C,D) </wallOrientation>
+    </roofFace>
+    <floorFace>
+      <wallTemplateID> w_20 </wallTemplateID>
+      <wallOrientation> (B,A,D,C) </wallOrientation>
+    </floorFace>
+  </faceWalls>
+  <numberOfDirectChildBoxes> 2 </numberOfDirectChildBoxes>
+  <childBoxList>
+    <childBox>
+      <boxTemplateID> b_8 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace> (CDAB,CDAB) </childRoofFace>
+	  <childFrontFace> (CDHG,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>440</AB>
+	  <AD>170</AD>
+	  <AE>170</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+    <childBox>
+      <boxTemplateID> b_7 </boxTemplateID>
+      <childBoxPlacement>
+	<faceAlignment>
+	  <childRoofFace> (CDAB,CDAB) </childRoofFace>
+	  <childFrontFace> (CDHG,ABFE) </childFrontFace>
+	</faceAlignment>
+	<childOriginDisplacement>
+	  <AB>440</AB>
+	  <AD>200</AD>
+	<AE>20</AE>
+	</childOriginDisplacement>
+      </childBoxPlacement>
+    </childBox>
+  </childBoxList>
+</boxTemplate>

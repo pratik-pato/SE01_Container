@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<wallTemplate>
+  <objectID> w8 </objectID>
+  <objectType> 1 </objectType>
+  <userDefinedObjectID> wall8 </userDefinedObjectID>
+  <userLabel> wall_30x200 </userLabel>
+  <userComment> stage_wooden </userComment>
+  <wallTemplateID> w_8 </wallTemplateID>
+  <rectDims>
+    <AD>  300  </AD>
+    <AB>  2000  </AB>
+  </rectDims>
+  <color>
+    (28, 56, 56)
+  </color>
+  <numberOfDoors> 0 </numberOfDoors>
+</wallTemplate>

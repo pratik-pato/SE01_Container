@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<wallTemplate>
+  <objectID> w3 </objectID>
+  <objectType> 1 </objectType>
+  <userDefinedObjectID> wall3 </userDefinedObjectID>
+  <userLabel> wall_318x610 </userLabel>
+  <userComment> concrete_wall </userComment>
+
+  <wallTemplateID> w_3 </wallTemplateID>
+  <rectDims>
+    <AD> 3180 </AD>
+    <AB> 6100 </AB>
+  </rectDims>
+  <color>
+    (20, 20, 100)
+  </color>
+  
+  <numberOfDoors> 0 </numberOfDoors>
+  
+</wallTemplate>
+
+

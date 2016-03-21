@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<wallTemplate>
+  <objectID> w23 </objectID>
+  <objectType> 1 </objectType>
+  <userDefinedObjectID> wall23 </userDefinedObjectID>
+  <userLabel> wall_10x10 </userLabel>
+  <userComment> chalkBox_paper </userComment>
+  <wallTemplateID> w_23 </wallTemplateID>
+  <rectDims>
+    <AD>  100  </AD>
+    <AB>  100  </AB>
+  </rectDims>
+  <color>
+    (10, 27, 0)
+  </color>
+  <numberOfDoors> 1 </numberOfDoors>
+  <doorlist>
+    <doorPlacement>
+      <doorTemplateID> d_5 </doorTemplateID>
+      <doorOrientation> (A,B,C,D) </doorOrientation>
+      <doorDisplacement>
+	<AD>1</AD>
+	<AB>1</AB>
+      </doorDisplacement>
+    </doorPlacement>
+  </doorlist>
+
+</wallTemplate>

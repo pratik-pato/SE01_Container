@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<wallTemplate>
+  <objectID> w14 </objectID>
+  <objectType> 1 </objectType>
+  <userDefinedObjectID> wall14 </userDefinedObjectID>
+  <userLabel> wall_9.7x4 </userLabel>
+  <userComment> switch_becolite </userComment>
+  <wallTemplateID> w_14 </wallTemplateID>
+  <rectDims>
+    <AD>  97  </AD>
+    <AB>  40  </AB>
+  </rectDims>
+  <color>
+    (255, 255, 255)
+  </color>
+  <numberOfDoors> 0 </numberOfDoors>
+</wallTemplate>

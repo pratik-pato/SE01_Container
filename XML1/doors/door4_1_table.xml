@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<doorTemplate>
+  <objectID>d4_1</objectID>
+  <objectType> 2 </objectType>
+  <userDefinedObjectID> door_table_1 </userDefinedObjectID>
+  <userLabel> door_13x29 </userLabel>
+  <userComment>mica_door</userComment>
+
+  <doorTemplateID> d_4_1 </doorTemplateID>
+  <rectDims>
+    <AD>  130  </AD>
+    <AB>  290  </AB>
+  </rectDims>
+  <color>
+    (44,10,0)
+  </color>
+</doorTemplate>

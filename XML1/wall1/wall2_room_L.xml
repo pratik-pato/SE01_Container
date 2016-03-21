@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<wallTemplate>
+  <objectID>w2</objectID>
+  <objectType> 1 </objectType>
+  <userDefinedObjectID> wall2 </userDefinedObjectID>
+  <userLabel> wall_318x1360 </userLabel>
+  <userComment> concrete_wall </userComment>
+
+  <wallTemplateID> w_2 </wallTemplateID>
+  <rectDims>
+    <AD> 3180 </AD>
+    <AB> 13600 </AB>
+  </rectDims>
+  <color>
+    (20, 20, 100)
+  </color>
+  
+  <numberOfDoors> 0 </numberOfDoors>
+  
+</wallTemplate>
+
+

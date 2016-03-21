@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<doorTemplate>
+  <objectID> d5 </objectID>
+  <objectType> 2 </objectType>
+  <userDefinedObjectID> door_chkBX </userDefinedObjectID>
+  <userLabel> door_10x10 </userLabel>
+  <userComment> paper_door </userComment>
+  <doorTemplateID> d_5 </doorTemplateID>
+  <rectDims>
+    <AD>  100  </AD>
+    <AB>  99  </AB>
+  </rectDims>
+  <color>
+    (212, 191, 221)
+  </color>
+</doorTemplate>

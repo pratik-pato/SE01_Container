@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<wallTemplate>
+  <objectID> w18 </objectID>
+  <objectType> 1 </objectType>
+  <userDefinedObjectID> wall18 </userDefinedObjectID>
+  <userLabel> wall_75x150 </userLabel>
+  <userComment> table_wooden </userComment>
+  <wallTemplateID> w_18 </wallTemplateID>
+  <rectDims>
+    <AD>  750  </AD>
+    <AB>  1500  </AB>
+  </rectDims>
+  <color>
+    (17, 210, 0)
+  </color>
+
+  <numberOfDoors> 2 </numberOfDoors>
+  <doorlist>
+    <doorPlacement>
+      <doorTemplateID> d_4_1 </doorTemplateID>
+      <doorOrientation> (A,B,C,D) </doorOrientation>
+      <doorDisplacement>
+	<AB>20</AB>
+	<AD>20</AD>
+      </doorDisplacement>
+    </doorPlacement>
+
+    <doorPlacement>
+      <doorTemplateID> d_4_2 </doorTemplateID>
+      <doorOrientation> (A,B,C,D) </doorOrientation>
+      <doorDisplacement>
+	<AB>20</AB>
+	<AD>180</AD>
+      </doorDisplacement>
+    </doorPlacement>
+  </doorlist>
+  
+</wallTemplate>

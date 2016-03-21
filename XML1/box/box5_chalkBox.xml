@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<boxTemplate>
+  <objectID> w5 </objectID>
+  <objectType> 3 </objectType>
+  <userDefinedObjectID> box5 </userDefinedObjectID>
+  <userLabel> box_10x10x10 </userLabel>
+  <userComment> chalkBox_10x10x10 </userComment>
+  <boxTemplateID> b_5 </boxTemplateID>
+  <boxDimsOuter>
+    <AD>  100  </AD>
+    <AB>  100  </AB>
+  <AE> 100 </AE></boxDimsOuter>
+  <boxDimsInner>
+    <AD>  99  </AD>
+    <AB> 99  </AB>
+  <AE> 99 </AE></boxDimsInner>
+  <isContainerFlag> true </isContainerFlag>
+  <faceWalls>
+    <frontFace>
+      <wallTemplateID> w_22 </wallTemplateID>
+      <wallOrientation> (A,B,C,D) </wallOrientation>
+    </frontFace>
+    <backFace>
+      <wallTemplateID> w_22 </wallTemplateID>
+      <wallOrientation> (D,C,B,A) </wallOrientation>
+    </backFace>
+    <leftFace>
+      <wallTemplateID> w_21 </wallTemplateID>
+      <wallOrientation> (A,B,C,D) </wallOrientation>
+    </leftFace>
+    <rightFace>
+      <wallTemplateID> w_21 </wallTemplateID>
+      <wallOrientation> (B,A,D,C) </wallOrientation>
+    </rightFace>
+    <roofFace>
+      <wallTemplateID> w_23 </wallTemplateID>
+      <wallOrientation> (A,B,C,D) </wallOrientation>
+    </roofFace>
+    <floorFace>
+      <wallTemplateID> w_24 </wallTemplateID>
+      <wallOrientation> (A,B,C,D) </wallOrientation>
+    </floorFace>
+  </faceWalls>
+  <numberOfDirectChildBoxes> 0 </numberOfDirectChildBoxes>
+</boxTemplate>

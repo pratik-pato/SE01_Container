@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<wallTemplate>
+  <objectID> w26 </objectID>
+  <objectType> 1 </objectType>
+  <userDefinedObjectID> wall26 </userDefinedObjectID>
+  <userLabel> wall_76x60 </userLabel>
+  <userComment> PABox_steel </userComment>
+  <wallTemplateID> w_26 </wallTemplateID>
+  <rectDims>
+    <AD>  760  </AD>
+    <AB>  600  </AB>
+  </rectDims>
+  <color>
+    (255, 255, 255)
+  </color>
+  <numberOfDoors> 1 </numberOfDoors>
+  <doorlist>
+    <doorPlacement>
+      <doorTemplateID> d_2 </doorTemplateID>
+      <doorOrientation> (A,B,C,D) </doorOrientation>
+      <doorDisplacement>
+	<AB>10</AB>
+	<AD>10</AD>
+      </doorDisplacement>
+    </doorPlacement>
+  </doorlist>
+</wallTemplate>
