@@ -1,0 +1,54 @@
+#!/usr/bin/python
+import psycopg2
+import sys
+
+def fnConnectPsql():
+    sDbname = 'postgres'
+    sUser = 'pratik'
+    sPassword = ''
+    try:
+        conn = psycopg2.connect("dbname={} user={} password={}".format(sDbname, sUser, sPassword))
+        conn.autocommit = True
+        cur = conn.cursor()
+        return cur
+    except Exception as e:
+        print e
+
+def fnGetDirectChild(param1):
+    indirectChild = []
+    listInDirectChild = []
+    cur = fnConnectPsql()
+    cur.execute("select childId from directchild_parent where parentID = '%s';"%(param1))
+    directChild = cur.fetchall()
+    print directChild
+    listDirectChild = [i[0] for i in directChild]
+    print listDirectChild
+    
+    for ele in listDirectChild:
+        print ele
+        cur.execute("select childId from directchild_parent where parentID = '%s';"%(ele))
+        temp = cur.fetchall()
+        indirectChild.append(temp)
+
+    print indirectChild
+    for i in indirectChild:
+	if(len(i)>0):
+		for j in i:
+			for k in range(0,len(j)):
+				listInDirectChild.append(j[k])
+    allchild =  listDirectChild + listInDirectChild
+    print allchild
+    return allchild
+
+def fnInsertDirectChild_Parent(childID,parentID,displacementAB,displacementAD,displacementAE,alignChildFront,alignChildRoof):
+
+        cur = fnConnectPsql()
+        childList = fnGetDirectChild(childID)
+        if parentID in childList:
+                print "Child Parent Heirarchy Invalid"
+                return
+        else:
+                cur.execute("insert into directchild_parent values('%s','%s',%d,%d,%d,'%s','%s');"%(childID,parentID,displacementAB,displacementAD,displacementAE,alignChildFront,alignChildRoof))
+                print "inserted"
+                return
+
