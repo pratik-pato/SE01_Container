@@ -1,0 +1,41 @@
+To create the user pratik_SE as a superuser, and assign a password immediately:
+
+cgtest@debian:/var/www/html$ createuser -P -s -e pratik_SE
+Enter password for new role:
+Enter it again:
+CREATE ROLE pratik_SE PASSWORD 'md5556a81062aba566e94da33de0fdc3b86' SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN;
+cgtest@debian:/var/www/html$
+
+
+------------------------------------------------------------------------------------------
+cgtest@debian:~/Desktop/18June$ psql -U pratik_SE
+psql: FATAL:  Peer authentication failed for user "pratik_SE"
+
+soln:
+If you intend to use password authentication you need instead of the peer method, try changing it to md5 the following pg_hba.conf* line:
+
+# TYPE DATABASE USER ADDRESS METHOD
+local  all      all          peer
+
+change it to
+
+# TYPE DATABASE USER ADDRESS METHOD
+local  all      all          md5
+
+After setting it to md5 you need to restart postgres by :
+      sudo service postgresql restart
+
+------------------------------------------------------------------------------------------
+cgtest@debian:~$ psql -U pratik_SE -W SE01
+Password for user pratik_SE:
+psql (9.4.6)
+Type "help" for help.
+
+SE01=# 
+
+------------------------------------------------------------------------------------------
+To upload database, insert sql file [\i filename]:
+
+SE01=# \i createDB.sql
+
+------------------------------------------------------------------------------------------

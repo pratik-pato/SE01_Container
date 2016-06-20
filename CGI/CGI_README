@@ -1,0 +1,69 @@
+Configuration of CGI:
+
+-------------------------------------------------------------------------------
+Prerequisite:
+apache2 installed : [sudo apt-get install apache2]
+tomcat7 installed : [sudo apt-get install tomcat7]
+
+To test if apache is working properly go to browser and in adressbar type localhost or 127.0.0.1 on success it shows:
+
+   	Apache2 Debian Default Page 
+		It works!
+
+-------------------------------------------------------------------------------
+To run python file from browser you have to make changes in files mentioned below
+
+Changes made in config files:
+/etc/apache2/sites-enabled/000-default.conf : [add following lines ,you can change Directory to any location you want]
+
+	<Directory /var/www/html>
+		Options ExecCGI
+		AddHandler cgi-script .py
+        </Directory>
+
+        <Directory "/usr/lib/cgi-bin">
+                AllowOverride None
+                Options +ExecCGI
+                Allow from all
+        </Directory>
+
+After adding these lines restat apache server by:
+      sudo service apache2 restart
+
+-------------------------------------------------------------------------------
+Now create a python file that will display some contents on browser in your cgi set directory [ here /var/www/html ]
+
+eg: test.py
+
+#!/usr/bin/python
+print 'Content-Type: text/html'
+print ''
+print '<html>'
+print '<h1>Python working</h1>'
+print '</html>'
+
+to execute above file you need to change its permission :
+sudo chmod 755 /var/www/html/test.py
+
+Now test if contents are loading on browser or not
+by going to browser and putting localhost/test.py in address bar
+
+It will give yoy contents on browser
+
+If it gives you popup for download the file then
+   1] You need to register Python with Apache.
+      	  sudo a2dismod mpm_event
+   2] Then,you have to give Apache explicit permission to run scripts.
+      	  sudo a2enmod mpm_prefork cgi
+   3] After doing above changes you need to restart apache2.
+	  sudo service apache2 restart
+	  
+Now you can test your script if its running or not
+
+-------------------------------------------------------------------------------
+If script is not working or apache gives some error like 500 Internal Server Error you may find some useful info from error log of apache by:
+
+   sudo tail /var/log/apache2/error.log
+
+
+-------------------------------------------------------------------------------

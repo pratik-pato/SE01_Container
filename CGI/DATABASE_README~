@@ -1,0 +1,9 @@
+To create the user pablo as a superuser, and assign a password immediately:
+
+cgtest@debian:/var/www/html$ createuser -P -s -e pablo
+Enter password for new role:
+Enter it again:
+CREATE ROLE pablo PASSWORD 'md5556a81062aba566e94da33de0fdc3b86' SUPERUSER CREATEDB CREATEROLE INHERIT LOGIN;
+cgtest@debian:/var/www/html$
+
+

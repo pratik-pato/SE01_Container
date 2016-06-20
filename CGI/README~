@@ -1,0 +1,11 @@
+This directory contains :
+directories
+
+	sql : contains 4 sql files with summary for each in file itself
+	scripts : contains 3 python files
+
+Files
+
+	CGI_README : This file describes how to set up CGI and how to deploy project files are in scripts directory
+	
+	DATABASE_README : This file describes how to upload database in system files are in sql directory
